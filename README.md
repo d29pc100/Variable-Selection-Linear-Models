@@ -7,5 +7,6 @@ feature selection for linear regression models based on several statistical meth
 5. Ridge regression: small coefficients are set to zero. 
 6. Regression tree: the relevance of explanaatory variables are based on presence in the single regression tree. 
 7. Random forest: the relevance of explanaatory variables are based on presence in the random forest. 
-These 7 methods are combined to construct a subset of relevant explantory variables.
+
+\These 7 methods are combined to construct a subset of relevant explantory variables.
 The performance is tested using a simulated dataset and the Boston housing dataset. 
