@@ -137,31 +137,6 @@ def OLS():
     model = lm.OLS(y,X).fit()
     return model.summary()
 
-#print(OLS())
-
-
-#####   Variable seletion
-#####   1. Peason Correlation method:
-#####       only keep variables with high correlation with target
-#####       drop features with extreme high correlation with other feature
-#####   2. BIC criterion method:
-#####       drop features in case of improvement of BIC criterion
-#####   3. P-value reductiono method:
-#####       drop features based on p-values
-#####   4. Lasso regression:
-#####       small coefficients are set to zero
-#####   5. Ridge regression:
-#####       small coefficients are set to zero
-#####   6. Regression tree:
-#####       relevance based on presence in the tree
-#####   7. Random forest:
-#####       relevance based on presence in the random forest
-#####   8. Combin the 7 methods: 
-#####       a combination of the 7 methods result in a subset of variables
-#####   9. Variance Inflation Factor (VIF) for multicollinearity 
-#####       drop a variable if the VIF value exceeds critical value
-
-
 def PearsonCorrelation():
     df = DataChoice(ch)
     ## find variables with covariance greater than 0.3 with dependent variable
