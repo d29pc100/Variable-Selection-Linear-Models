@@ -24,8 +24,6 @@ URL = 'https://machinelearningmastery.com/ridge-regression-with-python/'
 ## Variable Selection Linear Model
 URL = 'https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b'
 
-
-
 ## Packages
 from scipy.stats.stats import SigmaclipResult
 from sklearn import datasets
